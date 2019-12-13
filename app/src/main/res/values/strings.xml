@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ML Ciudad Valles</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Página Principal</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="sell_product">Vender un producto</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Mensaje</string>
+    <string name="menu_about">Acerca de...</string>
+    <string name="menu_dev">Desarrollador</string>
+
+    <string name="computation">computación</string>
+    <string name="music">música</string>
+    <string name="books">libros</string>
+    <string name="sports">deportes</string>
+    <string name="offers">ofertas</string>
+    <string name="pets">mascotas</string>
+    <string name="settings_string">Ajustes</string>
+    <string name="channel_name">messages</string>
+    <string name="channel_description">canal de mensajes recibidos</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="@layout/activity_sell">
+
+    <item
+            android:id="@+id/computation"
+            android:title="computación"
+            />
+
+    <item
+            android:id="@+id/music"
+            android:title="música"
+            />
+
+    <item
+            android:id="@+id/books"
+            android:title="libros"
+            />
+
+    <item
+            android:id="@+id/sports"
+            android:title="deportes"
+            />
+
+    <item
+            android:id="@+id/offers"
+            android:title="ofertas"
+            />
+
+    <item
+            android:id="@+id/pets"
+            android:title="mascotas"
+            />
+
+</menu>

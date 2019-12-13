@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.neki.comedoresperanza">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+
+    <application
+            android:icon="@mipmap/background_image"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/background_image_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme2">
+        <receiver
+                android:name=".NotificationsReceiver"
+                android:enabled="true"
+                android:exported="true"></receiver>
+
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AnswerToMessagesActivity" />
+
+        <service
+                android:name=".SocketIOService"
+                android:enabled="true"
+                android:exported="true"/>
+
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".ContactingSellerActivity" />
+        <activity android:name=".OnSetProductSuccessActivity" />
+        <activity android:name=".ByCategoryActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+
+        <meta-data
+                android:name="CLOUDINARY_URL"
+                android:value="cloudinary://766373567562448:7UrvpKi6BDAa9Vvbl-kgTSGW9-k@djlzeapiz" />
+
+        <activity android:name=".SellActivity" />
+        <activity
+                android:name=".HomeActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme2.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+    </application>
+
+</manifest>
