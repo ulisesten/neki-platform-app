@@ -232,7 +232,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
 
             R.id.get_at_cover -> {
-
+                menuOptions.onSetCoverOption(this)
             }
 
             R.id.nav_share -> {

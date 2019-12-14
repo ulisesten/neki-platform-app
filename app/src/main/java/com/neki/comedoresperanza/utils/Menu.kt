@@ -2,6 +2,7 @@ package com.neki.comedoresperanza.utils
 
 import android.content.Context
 import android.content.Intent
+import com.neki.comedoresperanza.CoverActivity
 import com.neki.comedoresperanza.LoginActivity
 import com.neki.comedoresperanza.NotificationsActivity
 import com.neki.comedoresperanza.SellActivity
@@ -37,6 +38,11 @@ class MenuOptions {
 
     fun onNotificationsOption(context:Context){
         val newIntent = Intent(context, NotificationsActivity::class.java)
+        context.startActivity(newIntent)
+    }
+
+    fun onSetCoverOption(context: Context){
+        val newIntent = Intent(context, CoverActivity::class.java)
         context.startActivity(newIntent)
     }
 }

@@ -26,6 +26,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -46,6 +47,9 @@ dependencies {
 
     //WebSockets
     implementation 'com.github.nkzawa:socket.io-client:0.6.0'
+
+    //Image crop
+    implementation "com.theartofdev.edmodo:android-image-cropper:2.7.0"
 
     //Image stuff
     implementation group: 'com.cloudinary', name: 'cloudinary-android', version: '1.24.0'
